@@ -8,7 +8,6 @@ body{
     background-color: crimson;
     height: 100%;
     display: flex;
-    text-align: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -16,6 +15,7 @@ h2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
+    text-align: center;
 }
 img{
     height: 300px;
@@ -25,6 +25,7 @@ img{
 #przyciski{
     display: flex;
     align-items: center;
+    text-align: center;
     height: 200px;
     width: 1200px;
     flex-direction: row;
@@ -56,8 +57,18 @@ h3, h4, p{
 }
 #dol > h2{
     color: black;
-    height: 70px;
+    height: 60px;
 }
 #dol > p{
     color: black;
+}
+#cos{
+    display: flex;
+
+}
+#numer{
+    width: 150px;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
 }
