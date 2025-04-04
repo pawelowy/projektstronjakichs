@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#gora{
+    background-color: crimson;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+img{
+    height: 300px;
+    width: 1000px;
+    align-self: center;
+}
+#przyciski{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 1200px;
+    flex-direction: row;
+
+}
+#przycisk1, #przycisk2, #przycisk3, #przycisk4, #przycisk5{
+    height: 150px;
+    width: 200px;
+    background-color: crimson;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+#przycisk1:hover, #przycisk2:hover, #przycisk3:hover, #przycisk4:hover, #przycisk5:hover{
+    border: 2px solid rgba(255, 255, 255, 0.486);
+}
+h3, h4, p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dol{
+    height: 38%;
+    width: 99%;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 0;
+    flex-direction: column;
+    align-self: center;
+}
+#dol > h2{
+    color: black;
+    height: 70px;
+}
+#dol > p{
+    color: black;
+}
