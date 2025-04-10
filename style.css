@@ -17,7 +17,7 @@ h2{
     letter-spacing: 5px;
     text-align: center;
 }
-img{
+#gora > img{
     height: 300px;
     width: 1000px;
     align-self: center;
@@ -41,8 +41,9 @@ img{
 }
 #przycisk1:hover, #przycisk2:hover, #przycisk3:hover, #przycisk4:hover, #przycisk5:hover{
     border: 2px solid rgba(255, 255, 255, 0.486);
+    cursor: pointer;
 }
-h3, h4, p{
+h3, h4, p, h5{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -64,11 +65,26 @@ h3, h4, p{
 }
 #cos{
     display: flex;
-
 }
 #numer{
     width: 150px;
 }
 ul{
     font-family: Arial, Helvetica, sans-serif;
+}
+#prawozdj{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#jajo > h5{
+    align-items: center;
+    color: black;
+}
+#jajo{
+    width: 200px;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
 }
