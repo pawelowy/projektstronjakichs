@@ -89,3 +89,7 @@ ul{
     flex-direction: column;
     display: flex;
 }
+#jajo > img{
+    height: 100px;
+    width: 100px;
+}
